@@ -1,0 +1,46 @@
+Manifest-Version: 1.0
+Build-Jdk-Spec: 11
+Created-By: 11.0.10 (Oracle Corporation)
+Bnd-LastModified: 1614423289171
+Bundle-Category: demofile
+Bundle-Description: "Core bundle for demofile"
+Bundle-ManifestVersion: 2
+Bundle-Name: demofile - Core
+Bundle-SymbolicName: demofile.core
+Bundle-Version: 1.0.0.20210227105449168
+Export-Package: demofile.core.filters;version="1.0";uses:="javax.servlet
+ ",demofile.core.listeners;version="1.0";uses:="org.osgi.service.event",
+ demofile.core.models;version="1.0";uses:="javax.annotation,org.apache.s
+ ling.api.resource,org.apache.sling.models.annotations,org.apache.sling.
+ models.annotations.injectorspecific",demofile.core.schedulers;version="
+ 1.0",demofile.core.servlets;version="1.0";uses:="javax.servlet,org.apac
+ he.sling.api,org.apache.sling.api.servlets"
+Import-Package: com.day.cq.wcm.api;version="[1.27,2)",demofile.core.filt
+ ers;version="[1.0,2)",demofile.core.listeners;version="[1.0,2)",demofil
+ e.core.schedulers;version="[1.0,2)",demofile.core.servlets;version="[1.
+ 0,2)",javax.annotation;version="[1.3,2)",javax.servlet;version="[3.1,4)
+ ",org.apache.poi.ss.usermodel;version="[3.0,4)",org.apache.poi.xssf.use
+ rmodel;version="[3.0,4)",org.apache.sling.api;version="[2.3,3)",org.apa
+ che.sling.api.request;version="[2.4,3)",org.apache.sling.api.resource;v
+ ersion="[2.11,3)",org.apache.sling.api.servlets;version="[2.2,3)",org.a
+ pache.sling.models.annotations;version="[1.5,2)",org.apache.sling.model
+ s.annotations.injectorspecific;version="[1.1,2)",org.apache.sling.setti
+ ngs;version="[1.3,2)",org.osgi.service.event;version="[1.3,2)",org.slf4
+ j;version="[1.7,2)"
+Private-Package: demofile.core.service
+Provide-Capability: osgi.service;objectClass:List<String>="demofile.core
+ .service.DemoFileService",osgi.service;objectClass:List<String>="java.l
+ ang.Runnable",osgi.service;objectClass:List<String>="javax.servlet.Filt
+ er",osgi.service;objectClass:List<String>="javax.servlet.Servlet",osgi.
+ service;objectClass:List<String>="org.osgi.service.event.EventHandler"
+Require-Capability: osgi.extender;filter:="(&(osgi.extender=osgi.compone
+ nt)(version>=1.4.0)(!(version>=2.0.0)))",osgi.ee;filter:="(&(osgi.ee=Ja
+ vaSE)(version=1.8))"
+Service-Component: OSGI-INF/demofile.core.filters.LoggingFilter.xml,OSGI
+ -INF/demofile.core.listeners.SimpleResourceListener.xml,OSGI-INF/demofi
+ le.core.schedulers.SimpleScheduledTask.xml,OSGI-INF/demofile.core.servi
+ ce.DemoFileServiceImpl.xml,OSGI-INF/demofile.core.servlets.SimpleServle
+ t.xml
+Sling-Model-Packages: demofile.core.models
+Tool: Bnd-4.2.0.201903051501
+

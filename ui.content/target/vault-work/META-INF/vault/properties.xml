@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>demofile - UI content</comment>
+<entry key="allowIndexDefinitions">false</entry>
+<entry key="acHandling">merge_preserve</entry>
+<entry key="created">2021-02-27T16:24:56.921+05:30</entry>
+<entry key="groupId">com.mindtree.demofile</entry>
+<entry key="description">UI content package for demofile</entry>
+<entry key="version">1.0-SNAPSHOT</entry>
+<entry key="packageType">content</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="createdBy">hp</entry>
+<entry key="name">demofile.ui.content</entry>
+<entry key="artifactId">demofile.ui.content</entry>
+<entry key="group">demofile</entry>
+</properties>

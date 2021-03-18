@@ -1,0 +1,14 @@
+demofile\core\servlets\SimpleServlet.class
+demofile\core\service\DemoFileServiceImpl.class
+demofile\core\servlets\package-info.class
+demofile\core\listeners\package-info.class
+demofile\core\models\DemoFileModel.class
+demofile\core\listeners\SimpleResourceListener.class
+demofile\core\service\DemoFileService.class
+demofile\core\filters\LoggingFilter.class
+demofile\core\schedulers\package-info.class
+demofile\core\filters\package-info.class
+demofile\core\schedulers\SimpleScheduledTask$Config.class
+demofile\core\schedulers\SimpleScheduledTask.class
+demofile\core\models\package-info.class
+demofile\core\models\HelloWorldModel.class
